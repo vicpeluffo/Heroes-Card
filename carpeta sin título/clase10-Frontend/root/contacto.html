@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/root/css/styleforms.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+    </header>
+    <div class="StoreName">
+        <p>Nombre Tienda</p>
+    </div>
+    <section>
+        <h1>Login</h1>
+        <div class="MainBox">
+            <form action="/login" method="POST">
+                <p>
+                    <label for="usuario"></label>
+                    <input class="formLogin" type="text" name="usuario" id="usuario" placeholder="Usuario">
+                </p>
+                <p>
+                    <label for="email"></label>
+                    <input class="formLogin" type="email" name="email" id="email" placeholder="Correo Electrónico">
+                </p>
+                <label for="comentario"></label>
+                <textarea class="formComment" name="comentario" id="comentario"></textarea>
+            </form>
+        </div>
+        <div class="cajaButtons">
+            <p>
+                <button id="resetButton" type="submit">Resetear</button>
+                <button id="submitButton" type="submit">Registrar</button>
+            </p>
+            </div>
+            </section>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

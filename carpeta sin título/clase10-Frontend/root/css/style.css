@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background: #1CD1B0;
+}
+.headerNegro{
+    background-color: black;
+    color: white;
+    height: 19px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 38px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+/*********TARJETA BATMAN**************/
+
+.tarjetaBatman{
+    background-image: url(/root/img/backgroundBatman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    left: 0px;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    background-color: #F3F3F3;
+    display: block;
+    font-size: 16px;
+    
+}
+h2.tituloBatman{
+    top: 50px;
+}
+#Batman{
+    border-radius: 50%;
+    position: relative;
+    margin-top: 200px;
+
+}
+.textoBatman{
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 90px;
+    padding-top: 0px;
+    position: relative;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    
+}
+
+/******TARJETA HARLEY***********/
+
+.tarjetaHarley{
+    background-image: url(/root/img/background2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    left: 0px;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    background-color: #F3F3F3;
+    display: block;
+    font-size: 16px;
+
+}
+#Quinn{
+    border-radius: 50%;
+    margin-top: 170px;
+    max-width: 40%;
+
+}
+.textoHarley{
+    text-align: left;
+    position: relative;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/***********FOOTER*************/
+footer{
+    position: relative;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

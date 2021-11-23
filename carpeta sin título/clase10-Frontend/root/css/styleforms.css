@@ -1,0 +1,112 @@
+/*****REGISTRO.HTML********/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: #1CD1B0;
+    color: black;
+    height: 23px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.StoreName{
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    color:white;
+}
+.StoreName p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0px;
+}
+.MainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formLogin{
+    width: 620px;
+    height: 60px;
+    left: 411.12px;
+    top: 460px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+}
+.formComment{
+    width: 620px;
+    height: 251px;
+    left: 410px;
+    top: 511px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+}
+.cajaButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#resetButton{
+    width: 300px;
+    height: 53.79px;
+    left: 409px;
+    top: 701px;
+    background: #888888;
+    border-radius: 23.011px;
+    color: white;
+    border: none;
+
+}
+#submitButton{
+    width: 300px;
+    height: 53.79px;
+    left: 729px;
+    top: 701px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    color: black;
+    border: none;
+
+}
+#sendButton{
+    width: 614.25px;
+    height: 53.79px;
+    left: 410px;
+    top: 659px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    color: black;
+    border: none;
+
+}
+
+.RegistroLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RegistroLogin p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

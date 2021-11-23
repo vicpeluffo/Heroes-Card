@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/root/css/styleforms.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+    </header>
+    <div class="StoreName">
+        <p>Nombre Tienda</p>
+    </div>
+
+    <main>
+        <h1>Registro</h1>
+        <div class="MainBox">
+            <form action="/login" method="POST">
+                <p>
+                    <label for="usuario"></label>
+                    <input class="formLogin" type="text" name="usuario" id="usuario" placeholder="Nombre y Apellido">
+                </p>
+                <p>
+                    <label for="email"></label>
+                    <input class="formLogin" type="email" name="email" id="email" placeholder="Correo Electrónico">
+                </p>
+                <p>
+                    <label for="password"></label>
+                    <input class="formLogin" type="password" name="password" id="password" placeholder="Contraseña">
+                </p>
+                <label></label>
+                <select class="formLogin" name="Pais" placeholder="País">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                </select>
+                <div class="cajaButtons">
+                    <p>
+                        <button id="resetButton" type="submit">Resetear</button>
+                    </p>
+                    <p>
+                        <button id="submitButton" type="submit">Registrar</button>
+                    </p>
+                </div>
+                <div class="RegistroLogin">
+                    <p>¿Ya tenés una cuenta? <a href="/root/login.html">Ingresá</a></p>
+                </div>
+            </form>
+        </div>
+            
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    
+</body>
+</html>
